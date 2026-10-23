@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">Flow</title>
+  <desc id="desc">A small daily action. A stronger connection.. Flutter   /   Daily check-ins   /   Reminders   /   Mobile state</desc>
+  <rect width="1440" height="420" rx="24" fill="#111b29"/>
+  <rect x="48" y="52" width="5" height="316" rx="2" fill="#c0c8f1"/>
+  <text x="88" y="95" fill="#c0c8f1" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="3">PRODUCT CASE STUDY / 03</text>
+  <text x="84" y="184" fill="#f7f2e9" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="-2">Flow</text>
+  <text x="88" y="241" fill="#d2dae6" font-family="Arial, Helvetica, sans-serif" font-size="29">A small daily action. A stronger connection.</text>
+  <path d="M88 292 H1352" stroke="#344052"/>
+  <text x="88" y="340" fill="#b4c0d0" font-family="Arial, Helvetica, sans-serif" font-size="22">Flutter   /   Daily check-ins   /   Reminders   /   Mobile state</text>
+  <g transform="translate(1240 67)" stroke="#c0c8f1" fill="none" stroke-width="2" opacity="0.8">
+    <rect width="86" height="54" rx="12"/>
+    <path d="M43 54 V81 H-2 M43 81 H88"/>
+    <circle cx="-7" cy="81" r="5" fill="#c0c8f1"/>
+    <circle cx="93" cy="81" r="5" fill="#c0c8f1"/>
+  </g>
+</svg>

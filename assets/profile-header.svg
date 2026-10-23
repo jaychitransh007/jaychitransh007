@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">From a problem to a product.</title>
+  <desc id="desc">AI applications. Interactive systems. Analytics.. Vibe   /   Airboard   /   Flow   /   VOnn</desc>
+  <rect width="1440" height="420" rx="24" fill="#111b29"/>
+  <rect x="48" y="52" width="5" height="316" rx="2" fill="#a5dbca"/>
+  <text x="88" y="95" fill="#a5dbca" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="3">SELECTED WORK / MRITYUNJAY NIGAM</text>
+  <text x="84" y="184" fill="#f7f2e9" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="700" letter-spacing="-2">From a problem to a product.</text>
+  <text x="88" y="241" fill="#d2dae6" font-family="Arial, Helvetica, sans-serif" font-size="29">AI applications. Interactive systems. Analytics.</text>
+  <path d="M88 292 H1352" stroke="#344052"/>
+  <text x="88" y="340" fill="#b4c0d0" font-family="Arial, Helvetica, sans-serif" font-size="22">Vibe   /   Airboard   /   Flow   /   VOnn</text>
+  <g transform="translate(1240 67)" stroke="#a5dbca" fill="none" stroke-width="2" opacity="0.8">
+    <rect width="86" height="54" rx="12"/>
+    <path d="M43 54 V81 H-2 M43 81 H88"/>
+    <circle cx="-7" cy="81" r="5" fill="#a5dbca"/>
+    <circle cx="93" cy="81" r="5" fill="#a5dbca"/>
+  </g>
+</svg>
