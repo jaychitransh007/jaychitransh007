@@ -1,85 +1,118 @@
-![Mrityunjay Nigam — AI products, interactive systems, and analytics](assets/profile-header.svg)
+<div align="center">
 
-# Hi, I'm Mrityunjay
+![Vibe — get dressed for your life](assets/vibe-hero.svg)
 
-I build applications that turn complex decisions into understandable interactions: finding an outfit, editing a diagram, or staying connected through a daily check-in.
+### Your plans. Your style. Your Vibe.
 
-My background is in **operations analytics**. My projects bring that interest in decisions and evidence into **AI applications, web interfaces, and mobile products**.
+Outfit ideas for your occasion. New ways to wear what you own. A virtual preview before your next step.
 
-[Explore the projects](#selected-projects) · [Engineering approach](#how-i-approach-engineering) · [Analytics work](#analytics-foundations) · [Get in touch](#lets-connect)
+[![Use Vibe](assets/use-vibe.svg)](https://vibe-consumer-web.vercel.app/) &nbsp; [![Demo walkthrough](assets/see-demo.svg)](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/DEMO.md) &nbsp; [![Explore features](assets/explore-features.svg)](#find-your-vibe)
 
-## Selected projects
+[Chat](https://vibe-consumer-web.vercel.app/) · [Looks](https://vibe-consumer-web.vercel.app/looks.html) · [Wardrobe](https://vibe-consumer-web.vercel.app/wardrobe.html) · [Profile](https://vibe-consumer-web.vercel.app/profile.html) · [Support](https://vibe-consumer-web.vercel.app/support.html)
 
-### Vibe · Conversational fashion discovery
+**Shopping in India and the United States · Mobile sign-in · For adults 18+**
 
-An application for exploring clothing recommendations around personal preferences, an occasion, a budget, and wardrobe context. The engineering challenge is connecting a conversational request to useful outfit suggestions and evidence about retailer products.
+</div>
 
-**Explore:** request interpretation, explicit constraints, style knowledge, product verification, conversation continuity, and evaluation.
+## A little inspiration, a lot more you
 
-**Stack:** Python · JavaScript · FastAPI · PostgreSQL / Supabase
+Tell Vibe what’s on your calendar, the pieces you like, and your budget. Explore clothing suggestions, understand the choices, and refine the look in conversation. Start with a garment you own or discover something new from retailer products.
 
-[Read the case study](projects/vibe.md) · [Public project overview](https://github.com/jaychitransh007/Vibe-Shopping)
+[![Demo video placeholder — a product walkthrough is coming soon](assets/demo-video-placeholder.svg)](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/DEMO.md)
 
-*The standalone application is under active development and its source is private. The public overview distinguishes it from the earlier Shopify prototype.*
+**Video placeholder — recording coming soon.** [Follow the written tour](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/DEMO.md) or [try the app now ↗](https://vibe-consumer-web.vercel.app/).
 
-### Airboard · Intent-driven diagram editing
+## Find your Vibe
 
-A diagram canvas controlled through typed commands, voice, pointer input, and camera gestures. Familiar commands take a deterministic path; less structured requests can use a model to propose a validated edit plan. Accepted changes are applied as a single undoable transaction.
+Open a starting point below, copy the prompt, and try it after onboarding.
 
-**Explore:** real-time interaction, transcription, structured model output, reference grounding, stale-state rejection, and undo.
+<details open>
+<summary><strong>I have somewhere to be · Find an outfit</strong></summary>
 
-**Stack:** TypeScript · pnpm workspace · WebSocket services · Supabase
+```text
+Find me a relaxed dinner outfit under ₹8,000.
+I like black and earth tones. Nothing too formal.
+```
 
-[Read the case study](projects/airboard.md) · [Explore the source](https://github.com/jaychitransh007/Airboard)
+Tell Vibe the occasion, a budget in your shopping currency, and what you want the look to feel like. Browse the outfit carousel and open a piece to inspect it.
 
-*A local-first prototype; provider-backed voice and semantic interpretation need their own server credentials.*
+[Try it in Vibe ↗](https://vibe-consumer-web.vercel.app/) · [More prompts](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/TRY_VIBE.md)
 
-### Flow · Daily check-ins and connection
+</details>
 
-A Flutter application organized around a simple daily check-in, with reminders, community interaction, and a nominated contact. Its technical story centers on state: authentication, returning-user onboarding, check-in timing, persistence, and device permissions.
+<details>
+<summary><strong>I already own a piece · Style my wardrobe</strong></summary>
 
-**Explore:** mobile journeys, time-dependent state, reactive navigation, local and push notifications, and integration testing.
+Upload a garment in Wardrobe, or attach a garment photo in Chat. Then say:
 
-**Stack:** Flutter / Dart · Riverpod · GoRouter · Supabase
+```text
+I already own this linen shirt.
+Help me style it for a casual dinner.
+Only suggest new pieces for the rest of the look.
+```
 
-[Read the case study](projects/flow.md) · [Explore the source](https://github.com/jaychitransh007/TheSigmaFlow)
+[Open Wardrobe ↗](https://vibe-consumer-web.vercel.app/wardrobe.html) · [Open Chat ↗](https://vibe-consumer-web.vercel.app/)
 
-*The repository contains implementation and release records. Current store availability is not asserted here.*
+</details>
 
-### VOnn · Fashion recommendation pipeline
+<details>
+<summary><strong>I like part of this look · Make it more me</strong></summary>
 
-An earlier Python and Streamlit project exploring a staged fashion workflow: profile and occasion inputs, styling rules, garment attributes, catalog retrieval, and virtual try-on.
+```text
+In outfit 2, keep the shirt and change the trousers.
+Make the look less formal and keep my original budget.
+```
 
-**Explore:** modular pipeline design, semantic retrieval, typed data models, and generated-image integration.
+Refer to the outfit you mean and explain what should stay. You can also ask why a recommendation works or ask a style question without shopping.
 
-**Stack:** Python · Streamlit · Google Cloud · BigQuery
+[Continue in Vibe ↗](https://vibe-consumer-web.vercel.app/) · [Try more examples](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/TRY_VIBE.md)
 
-[Read the case study](projects/vonn.md) · [Explore the source](https://github.com/jaychitransh007/TheSigmaFit4.0.0)
+</details>
 
-*A historical implementation snapshot, with its own architecture and provider dependencies.*
+## More than a list of clothes
 
-## How I approach engineering
+| Explore | What you can do | Open |
+| --- | --- | --- |
+| **Personal styling** | Ask for outfits, a single piece, a new direction, or advice without products. | [Chat ↗](https://vibe-consumer-web.vercel.app/) |
+| **Your wardrobe** | Upload garment photos and use an owned piece as your starting point. | [Wardrobe ↗](https://vibe-consumer-web.vercel.app/wardrobe.html) |
+| **Virtual try-on** | Generate a preview on eligible looks and revisit it later. | [Looks ↗](https://vibe-consumer-web.vercel.app/looks.html) |
+| **Product details** | Read descriptions, prices, explanations, and available retailer evidence. | [Feature guide](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/FEATURES.md#product-details-and-retailer-links) |
+| **Saved favorites** | Save outfits, filter history, and shortlist individual products with the wishlist action. | [Looks ↗](https://vibe-consumer-web.vercel.app/looks.html) |
+| **Sharing** | Share a generated look through a share sheet or copied link. | [Sharing guide](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/FEATURES.md#sharing) |
+| **Style profile** | Review and edit details, measurements, photos, and analysis. | [Profile ↗](https://vibe-consumer-web.vercel.app/profile.html) |
+| **Retailer discovery** | Browse the directory and submit a store for compatibility checks. | [Retailers ↗](https://vibe-consumer-web.vercel.app/retailers.html) |
+| **Your ideas** | Request features and vote for the ones you would use. | [Feature board ↗](https://vibe-consumer-web.vercel.app/feature-requests.html) |
+| **Account and help** | Read privacy information, manage your data, and report problems. | [Support ↗](https://vibe-consumer-web.vercel.app/support.html) |
 
-| Concern | Example in these projects |
+[Explore the complete feature guide →](https://github.com/jaychitransh007/Vibe-Shopping#explore-the-features)
+
+## Take a look around
+
+**Screenshot placeholders — real product captures coming soon.** Click a panel to open that part of Vibe or its guide.
+
+| Your style profile | Outfit discovery |
 | --- | --- |
-| Make intent explicit | Translate a clothing request or diagram edit into a structured, checkable representation. |
-| Give models a bounded role | Validate proposed actions and apply product rules around model output. |
-| Preserve user context | Keep outfit refinements tied to the right request; ground diagram edits against the board that was interpreted. |
-| Design recovery paths | Offer undo, explain rejected commands, and distinguish missing evidence from a successful result. |
-| Explain the evidence | Separate code tests, replayed fixtures, live integrations, and proposed research. |
+| [![Screenshot placeholder: personal profile and style analysis](assets/screenshot-profile.svg)](https://vibe-consumer-web.vercel.app/profile.html) | [![Screenshot placeholder: conversation and outfit recommendations](assets/screenshot-chat.svg)](https://vibe-consumer-web.vercel.app/) |
+| [![Screenshot placeholder: wardrobe and owned garments](assets/screenshot-wardrobe.svg)](https://vibe-consumer-web.vercel.app/wardrobe.html) | [![Screenshot placeholder: virtual try-on](assets/screenshot-tryon.svg)](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/FEATURES.md#virtual-try-on) |
+| [![Screenshot placeholder: saved looks and history](assets/screenshot-looks.svg)](https://vibe-consumer-web.vercel.app/looks.html) | [![Screenshot placeholder: product detail and retailer links](assets/screenshot-products.svg)](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/FEATURES.md#product-details-and-retailer-links) |
 
-The case studies explain the problem, workflow, architecture, important tradeoffs, and what still needs verification. Project documentation describes implemented behavior; it does not substitute for a current benchmark or live-service check.
+## Your first look starts here
 
-## Analytics foundations
+**[Open Vibe ↗](https://vibe-consumer-web.vercel.app/)** → verify your mobile number → complete your profile, measurements, headshot, and full-body photo → wait for style analysis → tell Vibe your plans.
 
-My earlier work includes exploratory notebooks in people analytics, statistics, and data visualization.
+The app detects India / INR or United States / USD from your network location. Account pages require sign-in. Purchases take place on the retailer’s site; confirm its final product details. Virtual try-on is an AI-generated visualization.
 
-- [HR analytics](https://github.com/jaychitransh007/HR_Analytics): explore employee attrition alongside satisfaction, workload, salary categories, and tenure. [Project guide](projects/hr-analytics.md).
-- [Data visualization](https://github.com/jaychitransh007/Kaggle-Data-Visualization): Python plotting exercises using pandas and Seaborn.
-- [Statistics](https://github.com/jaychitransh007/Statistics): notebooks exploring statistical concepts.
+[Getting started](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/GETTING_STARTED.md) · [FAQ](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/FAQ.md) · [What’s next](https://github.com/jaychitransh007/Vibe-Shopping/blob/main/docs/ROADMAP.md) · [Privacy](https://vibe-consumer-web.vercel.app/privacy.html) · [Terms](https://vibe-consumer-web.vercel.app/terms.html)
 
-These are learning and exploratory projects, presented separately from the application work above.
+<details>
+<summary><strong>Curious about the engineering?</strong></summary>
 
-## Let's connect
+Vibe connects a JavaScript consumer application, a Python recommendation engine, style knowledge, retailer evidence, and conversation state. [Read the engineering case study](projects/vibe.md) or [explore the public project guide](https://github.com/jaychitransh007/Vibe-Shopping).
 
-Interested in engineering collaboration, AI product development, or a product walkthrough? [Open a conversation in this portfolio](https://github.com/jaychitransh007/jaychitransh007/issues/new) and mention the project and what you would like to explore.
+The application source is private. The product guide, feature walkthroughs, and media live in the public showcase, independently of application deployments.
+
+</details>
+
+---
+
+Built by **Mrityunjay Nigam** · [Use Vibe ↗](https://vibe-consumer-web.vercel.app/) · [Suggest a feature](https://vibe-consumer-web.vercel.app/feature-requests.html) · [Get help](https://vibe-consumer-web.vercel.app/support.html)
